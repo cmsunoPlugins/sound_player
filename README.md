@@ -32,4 +32,5 @@ Use [SoundManager2](http://www.schillmania.com/projects/soundmanager2/)
 
 ### Versions ###
 
+* 1.0.1 - 26/04/2016 : Fix bug in Firefox with inline player
 * 1.0 - 25/04/2016 : First stable version

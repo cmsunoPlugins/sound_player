@@ -34,6 +34,6 @@ if(!isset($_SESSION['cmsuno'])) exit();
 			$path = $url['path'];
 			}
 		else $path = '/';
-		$Uscript .= 'soundManager.setup({url:\'http://www.boiteasite.fr'.$path.'/uno/plugins/sound_player/soundPlayer/soundmanager2/swf/\'});';
+		$Uscript .= 'soundManager.setup({url:\''.$path.'/uno/plugins/sound_player/soundPlayer/soundmanager2/swf/\'});';
 		}
 ?>

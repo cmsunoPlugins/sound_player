@@ -4,7 +4,7 @@
  * License MIT
  */
 var soundMem=[];
-if(typeof soundPlayerUrl==='undefined') var soundPlayerUrl='/';
+if(typeof soundPlayerUrl==='undefined') var soundPlayerUrl='';
 
 CKEDITOR.plugins.add('soundPlayer',{
 	requires:'widget',
@@ -12,6 +12,7 @@ CKEDITOR.plugins.add('soundPlayer',{
 	lang: 'en,es,fr',
 	init:function(editor){
 		var lang=editor.lang.soundPlayer;
+		if(soundPlayerUrl=='')soundPlayerUrl=this.path;
 		CKEDITOR.dialog.add('soundPlayerDialog',this.path+'dialogs/soundPlayer.js');
 		editor.addContentsCss(this.path+'soundPlayer.css');
 		editor.widgets.add('soundPlayer',{
@@ -42,8 +43,8 @@ CKEDITOR.plugins.add('soundPlayer',{
 		});
 		editor.ui.addButton('soundPlayer', {
 			label:lang.description,
-			command:'soundPlayer',
-			toolbar:'cmsuno'
+			toolbar:'cmsuno',
+			command:'soundPlayer'
         });
 	}
 });

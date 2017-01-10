@@ -28,12 +28,12 @@ if(!isset($_SESSION['cmsuno'])) exit();
 			}
 		$q = file_get_contents('data/'.$Ubusy.'/site.json');
 		$a = json_decode($q,true);
+		$path = '';
 		if(isset($a['url']))
 			{
 			$url = parse_url($a['url']);
-			$path = $url['path'];
+			if(isset($url['path'])) $path = $url['path'];
 			}
-		else $path = '/';
 		$Uscript .= 'soundManager.setup({url:\''.$path.'/uno/plugins/sound_player/soundPlayer/soundmanager2/swf/\'});';
 		}
 ?>

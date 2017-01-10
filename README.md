@@ -32,6 +32,7 @@ Use [SoundManager2](http://www.schillmania.com/projects/soundmanager2/)
 
 ### Versions ###
 
+* 1.1.1 - 10/01/2017 : Fix a bug
 * 1.1 - 14/10/2016 : Use PHP-Gettext in place of gettext
 * 1.0.1 - 26/04/2016 : Fix bug in Firefox with inline player
 * 1.0 - 25/04/2016 : First stable version

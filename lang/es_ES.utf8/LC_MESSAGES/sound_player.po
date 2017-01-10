@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CmsUno\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-25 17:11+0100\n"
-"PO-Revision-Date: 2016-04-25 17:11+0100\n"
+"POT-Creation-Date: 2017-01-10 11:33+0100\n"
+"PO-Revision-Date: 2017-01-10 11:33+0100\n"
 "Last-Translator: jacques Malgrange <contacter@boiteasite.fr>\n"
 "Language-Team: Jacques Malgrange <contacter@boiteasite.fr>\n"
 "Language: \n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Report-\tmsgstr-Bugs-To: \n"
 "Report-\t\tmsgstr-Bugs-To: \n"
-"X-Poedit-KeywordsList: _\n"
+"X-Poedit-KeywordsList: _;T_\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-Country: SPAIN\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
@@ -23,18 +23,19 @@ msgstr ""
 msgid "Sound Player"
 msgstr "Sound Player"
 
-#: ../../../sound_player.php:18
+#: ../../../sound_player.php:24
 msgid "This plugin allows you to adds one or more music player into the page content."
 msgstr "Este plugin permite Añadir uno o varios reproductor de música en el contenido de la página."
 
-#: ../../../sound_player.php:19
+#: ../../../sound_player.php:25
 msgid "It is used with the button"
 msgstr "Se utiliza con el botón"
 
-#: ../../../sound_player.php:19
+#: ../../../sound_player.php:25
 msgid "added to the text editor when the plugin is enabled."
 msgstr "añadido al editor de texto cuando el plugin está habilitado."
 
-#: ../../../sound_player.php:20
+#: ../../../sound_player.php:26
 msgid "The file should be in mp3."
 msgstr "El archivo debe estar en formato mp3."
+
